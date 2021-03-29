@@ -1,0 +1,23 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "light-server -s public/index.html -w \"*.js, *.css, *.html\" -x http://localhost:8000/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PastoriLps/my-second-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PastoriLps/my-second-site/issues"
+  },
+  "homepage": "https://github.com/PastoriLps/my-second-site#readme",
+  "devDependencies": {
+    "light-server": "^2.9.1"
+  }
+}
