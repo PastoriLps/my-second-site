@@ -389,6 +389,23 @@ hr{
         display: none;
     }
 
+    .cards__card{
+        margin: 4rem 0;
+    }
+
+    .card__title,  .card__text{
+        margin: 1rem 2rem;
+        text-align: justify;
+    }
+
+    .card__link{
+        margin: 2rem auto;
+    }
+
+    .cards__row{
+        width: 100%;
+    }
+
     .project__pictures{
         width: 100%;
     }
