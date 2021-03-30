@@ -43,12 +43,14 @@ hr{
     height: 8.06rem;
 }
 
-/* .header__logo{
-
-} */
-
 .header__nav{
     width: 15vw;
+}
+
+.nav__link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #1F3F68;
 }
 
 .nav{
@@ -343,6 +345,7 @@ hr{
 }
 
 .pannel__copy{
+    flex: 0 0 100%;
     margin-bottom: 4rem;
     opacity: 0.4;
 }
