@@ -39,7 +39,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5.1875rem 0 5.1875rem;
+    margin: 0 6%;
     height: 8.06rem;
 }
 
@@ -65,7 +65,7 @@ hr{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 5.1875rem;
+    margin: 0 6%;
     margin-bottom: 12rem;
     /*flex-direction: column;
     position: relative;
@@ -80,7 +80,7 @@ hr{
 
 .banner__panel--larger{
     flex: 0 0 48%;
-    padding-left: 8.125rem;
+    padding-left: 9%;
 }
 
 .banner__title{
@@ -111,7 +111,7 @@ hr{
 /* Cards */
 
 .cards{
-    margin: 0 13.3125rem;
+    margin: 0 15.5%;
     padding: 0;
     display: flex;
     align-items: flex-start;
@@ -176,7 +176,7 @@ hr{
 
 .projects__title{
     font-size: 2.25rem;
-    line-height: 2.875rem;
+    line-height: 2.5rem;
     max-width: 14.1875rem;
     margin-bottom: 6rem;
 }
@@ -336,10 +336,95 @@ hr{
     margin-bottom: 4rem;
 }
 
-.address__line{
-    margin-bottom: 4rem;
-}
 
-.address__line:not(:last-of-type){
-    margin-bottom: 1rem;
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+    .nav{
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+    }
+
+    .nav__link{
+        padding: 0 1rem;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner__panel{
+        padding: 0;
+    }
+
+    .banner__panel--larger{
+        width: 100%;
+    }
+    
+    .banner__title{
+        font-size: 2.25rem;
+        font-weight: lighter;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .banner__text{
+        line-height: 1.625rem;
+        margin-bottom: 4.4375rem;
+        width: 100%;
+    }
+
+    .banner__illustration{
+        display: none;
+    }
+
+    .project__pictures{
+        width: 100%;
+    }
+
+    .project__picture{
+        width: 48%;
+    }
+
+    .project__picture--full-row{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact__text{
+        margin-bottom: 2rem;
+    }
+
+    .contact__btn{
+        background-color: #5A98D0;
+        border-style: none;
+        border-radius: 0.5rem;
+        color: #fff;
+        padding: 0.4rem 1.5rem;
+        cursor: pointer;
+    }
+
+    .address__line{
+        margin-bottom: 2rem;
+    }
+    
+    .address__line:not(:last-of-type){
+        margin-bottom: 1rem;
+    }
+
+    .about-us__list{
+        margin-bottom: 2rem;
+    }
+    
+    .about-us__list:not(:last-of-type){
+        margin-bottom: 1rem;
+    }
+
+    .follow-us__list{
+        margin-bottom: 2rem;
+    }
+    
+    .follow-us__list:not(:last-of-type){
+        margin-bottom: 1rem;
+    }
 }
