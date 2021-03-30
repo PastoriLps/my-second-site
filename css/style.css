@@ -7,7 +7,7 @@ html{
 } 
 
 html, body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -84,11 +84,14 @@ hr{
     font-weight: lighter;
     line-height: 4.625rem;
     margin-bottom: 2rem;
+    color: #1F3F68;
 }
 .banner__text{
     line-height: 1.625rem;
     margin-bottom: 4.4375rem;
     width: 25rem;
+    color: #1F3F68;
+    opacity: 0.6;
 }
 .__banner__btn{
     cursor: pointer;
@@ -126,6 +129,8 @@ hr{
     font-size: 2.25rem;
     max-width: 22.37rem;
     line-height: 2.87rem;
+    color: #316099;
+    font-weight: 500;
 }
 
 .cards__card{
@@ -151,14 +156,18 @@ hr{
 .card__title{
     margin-right: 4.5625rem;
     margin-bottom: 1rem;
+    color: #1F3F68;
 }
 
 .card__text{
     margin-right: 3rem;
     margin-bottom: 2rem;
+    color: #1F3F68;
+    opacity: 0.6;
 }
 .card__link{
     margin-bottom: 3rem;
+    color: #5A98D0;
 }
 
 /* Projects */
@@ -175,12 +184,16 @@ hr{
     line-height: 2.5rem;
     max-width: 14.1875rem;
     margin-bottom: 6rem;
+    color: #1F3F68;
+    font-weight: 500;
 }
 .project__text{
     font-size: 1rem;
     line-height: 1.625rem;
     max-width: 33.75rem;
     margin-bottom: 6.75rem;
+    color: #1F3F68;
+    opacity: 0.6;
 }
 
 .project__pictures{
@@ -221,10 +234,6 @@ hr{
     background-color: #5A98D0; 
 }
 
-.footer_text{
-    margin: 96px 213px;
-}
-
 .footer__items{
     display: flex;
     justify-content: space-between;
@@ -238,6 +247,7 @@ hr{
     line-height: 2.875rem;
     max-width: 14.1875rem;
     margin-bottom: 6rem;
+    font-weight: 400;
 }
 
 .footer__text{
@@ -245,6 +255,8 @@ hr{
     line-height: 1.625rem;
     max-width: 33.75rem;
     margin-bottom: 6.75rem;
+    letter-spacing: 0.05rem;
+    opacity: 0.6
 }
 
 .footer__table{
@@ -283,12 +295,14 @@ hr{
     line-height: 2.875rem;
     max-width: 19.81rem;
     margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 .contact__text{
     font-size: 1rem;
     line-height: 1.625rem;
     max-width: 28.75rem;
+    opacity: 0.6;
 }
 
 .contact__buttons{
@@ -330,6 +344,7 @@ hr{
 
 .pannel__copy{
     margin-bottom: 4rem;
+    opacity: 0.4;
 }
 
 
