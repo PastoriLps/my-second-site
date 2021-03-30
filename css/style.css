@@ -399,11 +399,7 @@ hr{
     }
 
     .card__link{
-        margin: 2rem auto;
-    }
-
-    .cards__row{
-        width: 100%;
+        margin: 1rem auto;
     }
 
     .project__pictures{
